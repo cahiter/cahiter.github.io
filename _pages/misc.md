@@ -31,7 +31,7 @@ Things I've been into lately that are (generally) not so related to robots.
 ## Albums
 
 <ul class="misc-list">
-<li><span class="misc-title">Half Blood (BloodLuxe)</a></span><span class="misc-meta">slayr</span></li>
+<li><span class="misc-title">Half Blood (BloodLuxe)</span><span class="misc-meta">slayr</span></li>
 <li><span class="misc-title">Sulfur Surfer</span><span class="misc-meta">bladee</span></li>
 <li><span class="misc-title">Music, Fashion, Film</span><span class="misc-meta">charli xcx</span></li>
 <li><span class="misc-title">An Undying Love for a Burning World</span><span class="misc-meta">Neurosis</span></li>
