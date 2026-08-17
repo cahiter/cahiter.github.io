@@ -4,24 +4,36 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 <style>
-.pub { display: flex; gap: 20px; margin-bottom: 35px; align-items: flex-start; }
-.pub img { width: 240px; border-radius: 6px; flex-shrink: 0; }
-.pub-title { font-weight: bold; font-size: 1.05em; }
-.pub-authors { font-size: 0.9em; margin-top: 5px; }
-.pub-venue { font-size: 0.9em; color: #777; margin-top: 3px; }
-.pub-links { margin-top: 10px; }
-.pub-links a, .pub summary {
-  display: inline-block; padding: 3px 13px; margin: 0 6px 6px 0;
-  border: 1px solid #ccc; border-radius: 4px; font-size: 0.85em;
-  text-decoration: none; cursor: pointer;
+.pub {
+  display: flex; gap: 22px; align-items: flex-start;
+  padding: 18px 20px; margin-bottom: 26px;
+  border: 1px solid rgba(128,128,128,0.25); border-radius: 10px;
 }
-.pub summary { list-style: none; }
-.pub pre { font-size: 0.75em; white-space: pre-wrap; background: #f7f7f7; padding: 10px; }
+.pub img {
+  width: 260px; flex-shrink: 0; border-radius: 6px;
+  border: 1px solid rgba(128,128,128,0.25);
+}
+.pub-title { font-weight: 700; font-size: 1.05em; line-height: 1.35; }
+.pub-authors { font-size: 0.9em; margin-top: 7px; }
+.pub-venue { font-size: 0.88em; margin-top: 5px; font-weight: 600; color: #2a6db0; }
+.pub-links { margin-top: 13px; display: flex; flex-wrap: wrap; gap: 8px; }
+.pub-links a, .pub summary {
+  display: inline-block; padding: 5px 14px; border-radius: 6px;
+  font-size: 0.85em; text-decoration: none; cursor: pointer;
+  border: 1px solid transparent; line-height: 1.5;
+}
+.pub-links a { background: #2a6db0; color: #fff !important; }
+.pub-links a + a { background: #2f363d; }
+.pub summary { list-style: none; border-color: rgba(128,128,128,0.45); }
+.pub summary::-webkit-details-marker { display: none; }
+.pub details[open] { flex-basis: 100%; }
+.pub pre {
+  font-size: 0.75em; white-space: pre-wrap; margin-top: 10px;
+  background: rgba(128,128,128,0.12); padding: 12px; border-radius: 6px;
+}
 @media (max-width: 700px) { .pub { flex-direction: column; } .pub img { width: 100%; } }
 </style>
-
 <div class="pub">
 <img src="/images/rspect.gif" alt="RSPECT">
 <div>
@@ -29,10 +41,9 @@ author_profile: true
 <div class="pub-authors"><b>C. I. Er</b>, A. Kashiri, Y. Yazicioglu</div>
 <div class="pub-venue">Journal of Intelligent &amp; Robotic Systems (JINT), 2026</div>
 <div class="pub-links">
-<a href="https://doi.org/10.1007/s10846-026-02426-5">Paper</a>
-<a href="https://www.youtube.com/watch?v=jQkGfwVTdBc&feature=youtu.be">Video</a>
-</div>
-<details><summary>Cite</summary>
+<a href="https://doi.org/10.1007/s10846-026-02426-5"><i class="fas fa-file"></i> Paper</a>
+<a href="https://www.youtube.com/watch?v=jQkGfwVTdBc&feature=youtu.be"><i class="fas fa-video"></i> Video</a>
+<details><summary><i class="fas fa-quote-left"></i> Cite</summary>
 <pre>@article{er2026rspect,
   title={Rspect: Robust and scalable planner for energy-aware coordination of uav-ugv teams in aerial monitoring},
   author={Er, Cahit Ikbal and Kashiri, Amin and Yaz{\i}c{\i}o{\u{g}}lu, Yasin},
@@ -43,7 +54,7 @@ author_profile: true
 </details>
 </div>
 </div>
-
+</div>
 <div class="pub">
 <img src="/images/exploration.gif" alt="Collaborative exploration">
 <div>
@@ -51,10 +62,9 @@ author_profile: true
 <div class="pub-authors"><b>C. I. Er</b>, S. Juttu, Y. Yazicioglu</div>
 <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
 <div class="pub-links">
-<a href="https://arxiv.org/abs/2603.22507">Preprint</a>
-<a href="https://www.youtube.com/watch?v=_oIx-_JZMKk">Video</a>
-</div>
-<details><summary>Cite</summary>
+<a href="https://arxiv.org/abs/2603.22507"><i class="fas fa-file"></i> Preprint</a>
+<a href="https://www.youtube.com/watch?v=_oIx-_JZMKk"><i class="fas fa-video"></i> Video</a>
+<details><summary><i class="fas fa-quote-left"></i> Cite</summary>
 <pre>@article{er2026energy,
   title={Energy-Aware Collaborative Exploration for a UAV-UGV Team},
   author={Er, Cahit Ikbal and Juttu, Saikiran and Yazicioglu, Yasin},
@@ -64,7 +74,7 @@ author_profile: true
 </details>
 </div>
 </div>
-
+</div>
 <div class="pub">
 <img src="/images/prospect.gif" alt="PRO-SPECT">
 <div>
@@ -72,16 +82,16 @@ author_profile: true
 <div class="pub-authors">R. Fowler*, <b>C. I. Er</b>*, B. Johnsenberg, Y. Yazicioglu <br><span style="font-size:0.85em">*Equal contribution</span></div>
 <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
 <div class="pub-links">
-<a href="https://arxiv.org/abs/2604.02142">Preprint</a>
-<a href="https://www.youtube.com/watch?v=w81nHt7OAxY">Video</a>
-</div>
-<details><summary>Cite</summary>
+<a href="https://arxiv.org/abs/2604.02142"><i class="fas fa-file"></i> Preprint</a>
+<a href="https://www.youtube.com/watch?v=w81nHt7OAxY"><i class="fas fa-video"></i> Video</a>
+<details><summary><i class="fas fa-quote-left"></i> Cite</summary>
 <pre>@article{fowler2026pro,
   title={PRO-SPECT: Probabilistically Safe Scalable Planning for Energy-Aware Coordinated UAV-UGV Teams in Stochastic Environments},
-  author={Fowler, Roger and Er, Cahit Ikbal and Johnsenberg, Benjamin and Yazicioglu, Yasin},
+  author={Fowler, Roger and Er, Cahit Ikbal and Johnsenberg, Benjamin and Yazicioglu, Yazin},
   journal={arXiv preprint arXiv:2604.02142},
   year={2026}
 }</pre>
 </details>
+</div>
 </div>
 </div>
