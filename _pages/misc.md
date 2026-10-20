@@ -25,7 +25,8 @@ Things I've been into lately that are (generally) not so related to robots.
 <li><span class="misc-title">Diablo II: Resurrected</span><span class="misc-meta">PC</span></li>
 <li><span class="misc-title">Black Mesa</span><span class="misc-meta">PC</span></li>
 <li><span class="misc-title">Esoteric Ebb</span><span class="misc-meta">PC</span></li>
-<li><span class="misc-title">Pokémon Legends: Arceus</span><span class="misc-meta">Nintendo Switch</span><span class="misc-now">Now playing</span></li>
+<li><span class="misc-title">Pokémon Legends: Arceus</span><span class="misc-meta">Nintendo Switch</span></li>
+<li><span class="misc-title">Hades II</span><span class="misc-meta">PC</span><span class="misc-now">Now playing</span></li>
 </ul>
 
 ## Albums
@@ -35,4 +36,5 @@ Things I've been into lately that are (generally) not so related to robots.
 <li><span class="misc-title">Sulfur Surfer</span><span class="misc-meta">Bladee</span></li>
 <li><span class="misc-title">An Undying Love for a Burning World</span><span class="misc-meta">Neurosis</span></li>
 <li><span class="misc-title">Zelda's Lofi Collection</span><span class="misc-meta">Jokabi</span></li>
+<li><span class="misc-title">Oxygène</span><span class="misc-meta">Jean-Michel Jarre</span></li>
 </ul>
