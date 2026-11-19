@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Ph.D. candidate at Northeastern University, advised by Prof. Yasin Yazıcıoğlu in the Multi-Agent Robotics and Autonomy Laboratory (MuRAL), working on planning and control for heterogeneous multi-robot teams.
+Ph.D. candidate at Northeastern University, advised by Prof. Yasin Yazıcıoğlu in the Multi-Agent Robotics and Autonomy Laboratory (MuRAL), working on planning and coordination for heterogeneous, energy-constrained multi-robot teams.
 
-I design scalable algorithms with provable feasibility, robustness, and complexity guarantees for energy-constrained, long-horizon UAV-UGV missions such as aerial monitoring, coverage, and collaborative exploration, and validate them in simulation and on real hardware.
+I focus on teams of drones (UAVs) that ride on and recharge from ground robots (UGVs). I formulate long-horizon missions such as aerial monitoring, ordered inspection, and collaborative exploration as mixed-integer programs, and design scalable algorithms with provable guarantees: feasibility, worst-case complexity, robustness to disturbances, and probabilistic safety under online replanning. I validate them in simulation and in hardware experiments.
 
 ## Research interests
 
@@ -22,8 +22,8 @@ I design scalable algorithms with provable feasibility, robustness, and complexi
 ## Education
 
 - **Ph.D. in Mechanical Engineering** <br>
-  Northeastern University, Boston, MA (expected May 2028) — Mechatronics
-- **M.Sc. in Electrical and Computer Engineering** <br>
-  Northeastern University, Boston, MA (May 2026) — Robotics
+  Northeastern University, Boston, MA (expected May 2028) — Concentration: Mechatronics
+- **M.Sc. in Robotics** <br>
+  Northeastern University, Boston, MA (April 2026) — Concentration: Electrical and Computer Engineering
 - **B.Sc. in Mechanical Engineering** <br>
-  Bilkent University, Ankara, Turkey (2023)
+  Bilkent University, Ankara, Turkey (June 2023)
